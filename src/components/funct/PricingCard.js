@@ -1,6 +1,6 @@
 import React from "react";
 import { useContext } from "react";
-import { PricingContext } from "../context/PricingContext";
+import { PricingContext } from "../../context/PricingContext";
 
 const PricingCard = () => {
   const { allPricing, enabled, setEnabled } = useContext(PricingContext);

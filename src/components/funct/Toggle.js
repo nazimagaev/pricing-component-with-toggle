@@ -1,6 +1,6 @@
 import { Switch } from "@headlessui/react";
 import { useContext } from "react";
-import { PricingContext } from "../context/PricingContext";
+import { PricingContext } from "../../context/PricingContext";
 
 export default function Toggle() {
   const { allPricing, enabled, setEnabled } = useContext(PricingContext);

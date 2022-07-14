@@ -1,0 +1,23 @@
+// import { useContext } from "react";
+// import { PricingContext } from "./context/PricingContext";
+// import Toggle from "./components/Toggle";
+// import PricingCard from "./components/PricingCard";
+import styled from "styled-components";
+
+const AppStyled = styled.div``;
+
+function App() {
+  // const name = useContext(PricingContext);
+  // const { allPricing, enabled, setEnabled } = useContext(PricingContext);
+
+  return (
+    <AppStyled>
+      {/* <Toggle /> */}
+      {/* <h1 className="text-5xl">{name.monthly.basic}</h1> */}
+      {/* {enabled ? <h1>True</h1> : <h1>False</h1>} */}
+      {/* <PricingCard /> */}
+    </AppStyled>
+  );
+}
+
+export default App;
